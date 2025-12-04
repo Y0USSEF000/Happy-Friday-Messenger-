@@ -5,7 +5,14 @@ import random
 from datetime import datetime
 
 numbers = [
-   
+"+212xxxxxxxxx", 
+"+212xxxxxxxxx",
+"+212xxxxxxxxx", 
+"+212xxxxxxxxx", 
+"+212xxxxxxxxx", 
+"+212xxxxxxxxx",
+"+212xxxxxxxxx",
+"+212xxxxxxxxx",
 ]
 
 IMAGE_FOLDER = "./image"
@@ -50,7 +57,8 @@ while True:
     now = datetime.now()
 
     # Friday ?
-    if now.weekday() == 1:  # 4 = Friday
+    if now.weekday() == 4:  # 4 = Friday
+
         week_number = now.isocalendar().week
 
         # send only ONCE per Friday
